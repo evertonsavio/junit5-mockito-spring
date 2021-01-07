@@ -9,27 +9,26 @@ public class MoneyTest {
 
     @Test
     void testMultiplicationDollar() {
-        Dollar five = new Dollar(5);
-        Dollar product = five.times(2);
-        assertEquals(new Dollar(10), product);
+        Money five = Money.dollar(5);
+        assertEquals(Money.dollar(10), five.times(2));
     }
 
     @Test
     void testEqualityDollar() {
-        assertEquals(new Dollar(5), new Dollar(5));
-        assertNotEquals(new Dollar(8), new Dollar(5));
+        assertEquals(Money.dollar(5), Money.dollar(5));
+        assertNotEquals(Money.dollar(8), Money.dollar(5));
+        assertNotEquals(Money.dollar(5), Money.savio(5));
     }
 
     @Test
     void testMultiplicationSavio() {
-        Savio five = new Savio(5);
-        Savio product = five.times(2);
-        assertEquals(new Savio(10), product);
+        Money five = Money.savio(5);
+        assertEquals(Money.savio(10), five.times(2));
     }
 
     @Test
     void testEqualitySavio() {
-        assertEquals(new Savio(5), new Savio(5));
-        assertNotEquals(new Savio(8), new Savio(5));
+        assertEquals(Money.savio(5), Money.savio(5));
+        assertNotEquals(Money.savio(8), Money.savio(5));
     }
 }

@@ -6,7 +6,7 @@ public class Savio extends Money{
         this.amount = amount;
     }
 
-    Savio times(int multiplier){
+    public Money times(int multiplier){
         return new Savio( amount *= multiplier);
     }
 
