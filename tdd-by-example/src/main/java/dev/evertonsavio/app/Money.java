@@ -40,7 +40,7 @@ public class Money implements Expression {
         return new Money(amount * multiplier, this.currency);
     }
 
-    public Expression plus(Money added){
-        return new Money(amount + added.amount, currency);
+    public Expression plus(Money addend){
+        return new Money(amount + addend.amount, currency);
     }
 }
