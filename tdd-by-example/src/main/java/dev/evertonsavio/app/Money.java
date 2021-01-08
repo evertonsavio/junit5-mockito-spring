@@ -1,6 +1,6 @@
 package dev.evertonsavio.app;
 
-public abstract class Money {
+public class Money {
 
     protected int amount;
     protected String currency;
@@ -14,19 +14,29 @@ public abstract class Money {
         return currency;
     }
 
-    public abstract Money times(int multiplier);
-
     public static Money dollar(int amount){
-        return new Dollar(amount, "USD");
+        return new Money(amount, "USD");
     }
 
     public static Money reais(int amount){
-        return new Reais(amount, "BRA");
+        return new Money(amount, "BRA");
     }
 
     public boolean equals(Object object){
         Money money = (Money) object;
-        return amount == money.amount
-                && this.getClass().equals(object.getClass());
+        return amount == money.amount && this.currency == money.currency;
+                //&& this.getClass().equals(object.getClass());
+    }
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
+
+    public Money times(int multiplier){
+        return new Money(amount * multiplier, this.currency);
     }
 }
