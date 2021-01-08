@@ -1,6 +1,6 @@
 package dev.evertonsavio.app;
 
-public class Money {
+public class Money implements Expression {
 
     protected int amount;
     protected String currency;
@@ -38,5 +38,9 @@ public class Money {
 
     public Money times(int multiplier){
         return new Money(amount * multiplier, this.currency);
+    }
+
+    public Expression plus(Money added){
+        return new Money(amount + added.amount, currency);
     }
 }
