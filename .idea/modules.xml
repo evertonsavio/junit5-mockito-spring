@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TDD_JUnit_Spring_Boot.iml" filepath="$PROJECT_DIR$/.idea/TDD_JUnit_Spring_Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit5-testing/junit5-testing.iml" filepath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" filepath="$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" />
     </modules>
   </component>

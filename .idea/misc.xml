@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/tdd-by-example/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5-testing/pom.xml" />
       </list>
     </option>
   </component>

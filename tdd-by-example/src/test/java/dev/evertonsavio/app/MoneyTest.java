@@ -1,4 +1,4 @@
-package guru.springframework;
+package dev.evertonsavio.app;
 
 import org.junit.jupiter.api.Test;
 
@@ -17,18 +17,24 @@ public class MoneyTest {
     void testEqualityDollar() {
         assertEquals(Money.dollar(5), Money.dollar(5));
         assertNotEquals(Money.dollar(8), Money.dollar(5));
-        assertNotEquals(Money.dollar(5), Money.savio(5));
+        assertNotEquals(Money.dollar(5), Money.reais(5));
     }
 
     @Test
     void testMultiplicationSavio() {
-        Money five = Money.savio(5);
-        assertEquals(Money.savio(10), five.times(2));
+        Money five = Money.reais(5);
+        assertEquals(Money.reais(10), five.times(2));
     }
 
     @Test
     void testEqualitySavio() {
-        assertEquals(Money.savio(5), Money.savio(5));
-        assertNotEquals(Money.savio(8), Money.savio(5));
+        assertEquals(Money.reais(5), Money.reais(5));
+        assertNotEquals(Money.reais(8), Money.reais(5));
+    }
+
+    @Test
+    void testCurrency() {
+        assertEquals("USD", Money.dollar(1).getCurrency());
+        assertEquals("BRA", Money.reais(1).getCurrency());
     }
 }
