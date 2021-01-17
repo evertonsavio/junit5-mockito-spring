@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64673582-f7a7-43c0-9bf7-9d8460b008d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit5-testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-testing/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,6 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nCER6PrJYEq6uZtdU1AdHbq1Ms" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,15 +35,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oauth2-Java-Microservices" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dev.evertonsavio.app.junit5testing" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.evertonsavio.app.junit5testing.standard" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JUnit5TestingApplication">
+  <component name="RunManager" selected="JUnit.GreatingTest">
     <configuration name="JUnit5TestingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.junit5testing.JUnit5TestingApplication" />
       <module name="junit5-testing" />
@@ -59,32 +65,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-by-example" />
+    <configuration name="GreatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.evertonsavio.app.*" />
+          <option name="PATTERN" value="dev.evertonsavio.app.junit5testing.standard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.evertonsavio.app" />
-      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.MoneyTest" />
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app.junit5testing.standard" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.junit5testing.standard.GreatingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest.testEqualityDollar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-by-example" />
+    <configuration name="GreatingTest.helloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.evertonsavio.app.*" />
+          <option name="PATTERN" value="dev.evertonsavio.app.junit5testing.standard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.evertonsavio.app" />
-      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.MoneyTest" />
-      <option name="METHOD_NAME" value="testEqualityDollar" />
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app.junit5testing.standard" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.junit5testing.standard.GreatingTest" />
+      <option name="METHOD_NAME" value="helloWorld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatingTest.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.evertonsavio.app.junit5testing.standard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app.junit5testing.standard" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.junit5testing.standard.GreatingTest" />
+      <option name="METHOD_NAME" value="testHelloWorld" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,10 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreatingTest" />
+        <item itemvalue="JUnit.GreatingTest.testHelloWorld" />
+        <item itemvalue="JUnit.GreatingTest.helloWorld" />
         <item itemvalue="Application.JUnit5TestingApplication" />
         <item itemvalue="JUnit.MoneyTest.testReduceMoneyDifferentCurrency" />
-        <item itemvalue="JUnit.MoneyTest.testEqualityDollar" />
-        <item itemvalue="JUnit.MoneyTest" />
       </list>
     </recent_temporary>
   </component>
