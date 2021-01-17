@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64673582-f7a7-43c0-9bf7-9d8460b008d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/MoneyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit5-testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-testing/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,10 +37,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oauth2-Java-Microservices" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest.testReduceMoneyDifferentCurrency">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dev.evertonsavio.app.junit5testing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JUnit5TestingApplication">
+    <configuration name="JUnit5TestingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.junit5testing.JUnit5TestingApplication" />
+      <module name="junit5-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.evertonsavio.app.junit5testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-by-example" />
       <extension name="coverage">
@@ -87,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JUnit5TestingApplication" />
         <item itemvalue="JUnit.MoneyTest.testReduceMoneyDifferentCurrency" />
         <item itemvalue="JUnit.MoneyTest.testEqualityDollar" />
         <item itemvalue="JUnit.MoneyTest" />
