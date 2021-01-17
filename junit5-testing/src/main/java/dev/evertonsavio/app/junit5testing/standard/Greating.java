@@ -2,8 +2,8 @@ package dev.evertonsavio.app.junit5testing.standard;
 
 public class Greating {
 
-    private static final String HELLO = "hello";
-    private static final String WORLD = "world";
+    private static final String HELLO = "Olá";
+    private static final String WORLD = "Mundo!";
 
     public static String helloWorld() {
         return HELLO + " " + WORLD;
