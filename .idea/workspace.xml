@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64673582-f7a7-43c0-9bf7-9d8460b008d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/main/java/dev/evertonsavio/app/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-by-example/src/test/java/dev/evertonsavio/app/package-info.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nCER6PrJYEq6uZtdU1AdHbq1Ms" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="JUnit.MoneyTest.testReduceMoneyDifferentCurrency">
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.evertonsavio.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testEqualityDollar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.evertonsavio.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.MoneyTest" />
+      <option name="METHOD_NAME" value="testEqualityDollar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testReduceMoneyDifferentCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.evertonsavio.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.evertonsavio.app" />
+      <option name="MAIN_CLASS_NAME" value="dev.evertonsavio.app.MoneyTest" />
+      <option name="METHOD_NAME" value="testReduceMoneyDifferentCurrency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MoneyTest.testReduceMoneyDifferentCurrency" />
+        <item itemvalue="JUnit.MoneyTest.testEqualityDollar" />
+        <item itemvalue="JUnit.MoneyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64673582-f7a7-43c0-9bf7-9d8460b008d7" name="Default Changelist" comment="" />
+      <created>1610885660386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610885660386</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd_by_example$MoneyTest_testReduceMoneyDifferentCurrency.ic" NAME="MoneyTest.testReduceMoneyDifferentCurrency Coverage Results" MODIFIED="1610886617401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dev.evertonsavio.app.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tdd_by_example$MoneyTest_testEqualityDollar.ic" NAME="MoneyTest.testEqualityDollar Coverage Results" MODIFIED="1610886429582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dev.evertonsavio.app.*</FILTER>
+    </SUITE>
+  </component>
+</project>
