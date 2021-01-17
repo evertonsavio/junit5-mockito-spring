@@ -1,6 +1,6 @@
-package dev.evertonsavio.app.junit5testing.standard;
+package dev.evertonsavio.app.junit5testing;
 
-public class Greating {
+public class Greeting {
 
     private static final String HELLO = "Olá";
     private static final String WORLD = "Mundo!";
