@@ -52,6 +52,16 @@ class IndexControllerTest {
         });
     }
 
-    
+    @Test
+    void testAssumptionTrue(){
+
+        assertTrue("SAVIO".equalsIgnoreCase(System.getenv("SAVIO_RUNTIME")));
+    }
+
+    @Test
+    void testAssumptionTrueAssumptionTrue(){
+
+        assertTrue("SAVIO".equalsIgnoreCase("SAVIO"));
+    }
 
 }
