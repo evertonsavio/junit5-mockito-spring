@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,6 +16,7 @@ class IndexControllerTest {
     }
 
     @Test
+    @DisplayName("Test if View Name is returning")
     void index() {
         assertEquals("index", controller.index());
         assertEquals("index", controller.index(), "Wrong view return!");
