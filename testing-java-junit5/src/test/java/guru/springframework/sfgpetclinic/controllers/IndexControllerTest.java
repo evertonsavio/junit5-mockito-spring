@@ -57,6 +57,7 @@ class IndexControllerTest {
         });
     }
 
+    @Disabled
     @Test
     void testAssumptionTrue(){
 
