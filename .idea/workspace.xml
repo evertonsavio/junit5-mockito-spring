@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc04ba94-ee9d-403f-a4d7-0f261b4b2123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing-java-junit5/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-java-junit5/src/test/java/guru/springframework/sfgpetclinic/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-java-junit5/src/test/java/guru/springframework/sfgpetclinic/controllers/IndexControllerTest.java" afterDir="false" />
+    <list default="true" id="5432ddd4-6f78-4485-a1d7-d25dc620f7e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TDD_JUnit_Spring_Boot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1npjhrfnliiQqtSdekC9wDwEhyd" />
+  <component name="ProjectId" id="1pf0HdxBAMfCSQ9jbCpgsCwONvd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,16 +28,59 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.Controller Test">
+    <configuration name="All in testing-java-junit5 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5 (1)" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller Test" type="JUnit" factoryName="JUnit">
+      <module name="testing-java-junit5 (1)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Controller Test" />
+      <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc04ba94-ee9d-403f-a4d7-0f261b4b2123" name="Default Changelist" comment="" />
-      <created>1612094051273</created>
+      <changelist id="5432ddd4-6f78-4485-a1d7-d25dc620f7e8" name="Default Changelist" comment="" />
+      <created>1615558750306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612094051273</updated>
+      <updated>1615558750306</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
