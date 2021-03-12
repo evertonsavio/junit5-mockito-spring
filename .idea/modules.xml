@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TDD_JUnit5_Java.iml" filepath="$PROJECT_DIR$/.idea/TDD_JUnit5_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/junit5-testing/junit5-testing.iml" filepath="$PROJECT_DIR$/junit5-testing/junit5-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit5-basic-testing/junit5-testing.iml" filepath="$PROJECT_DIR$/junit5-basic-testing/junit5-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit5-vet-controller-test/junit5-vet-controller-test.iml" filepath="$PROJECT_DIR$/junit5-vet-controller-test/junit5-vet-controller-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" filepath="$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testing-java-junit5/testing-java-junit5.iml" filepath="$PROJECT_DIR$/testing-java-junit5/testing-java-junit5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testing-java-junit5-assn-vet-controller-test/testing-java-junit5 (1).iml" filepath="$PROJECT_DIR$/testing-java-junit5-assn-vet-controller-test/testing-java-junit5 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit5-advanced-java/testing-java-junit5.iml" filepath="$PROJECT_DIR$/junit5-advanced-java/testing-java-junit5.iml" />
     </modules>
   </component>
 </project>

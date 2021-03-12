@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/junit5-testing/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/junit5-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-advanced-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-advanced-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-basic-testing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-basic-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-vet-controller-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5-vet-controller-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tdd-by-example/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tdd-by-example/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testing-java-junit5-assn-vet-controller-test/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testing-java-junit5-assn-vet-controller-test/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testing-java-junit5/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testing-java-junit5/src/main/resources" charset="UTF-8" />
   </component>
 </project>

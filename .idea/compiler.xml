@@ -9,14 +9,14 @@
         <module name="tdd-by-example" />
         <module name="junit5-testing" />
         <module name="testing-java-junit5" />
-        <module name="testing-java-junit5 (1)" />
+        <module name="junit5-vet-controller-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="junit5-testing" target="11" />
+      <module name="junit5-vet-controller-test" target="11" />
       <module name="tdd-by-example" target="11" />
       <module name="testing-java-junit5" target="11" />
-      <module name="testing-java-junit5 (1)" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
