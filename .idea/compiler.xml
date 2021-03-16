@@ -7,9 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tdd-by-example" />
-        <module name="junit5-testing" />
-        <module name="testing-java-junit5" />
-        <module name="junit5-vet-controller-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
