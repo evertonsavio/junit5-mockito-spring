@@ -27,7 +27,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/junit5-default-methods/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.myRepeatedTest">
+  <component name="RunManager" selected="JUnit.PersonTest.myRepeatedTestWithDependencyInjection">
     <configuration name="All in testing-java-junit5 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-vet-controller-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,14 +80,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.myRepeatedTestWithDependencyInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.model" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.model.PersonTest" />
+      <option name="METHOD_NAME" value="myRepeatedTestWithDependencyInjection(org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Controller Test" />
       <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
       <item itemvalue="JUnit.PersonTest.groupedAssertionMsgs" />
       <item itemvalue="JUnit.PersonTest.myRepeatedTest" />
+      <item itemvalue="JUnit.PersonTest.myRepeatedTestWithDependencyInjection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.myRepeatedTestWithDependencyInjection" />
         <item itemvalue="JUnit.PersonTest.myRepeatedTest" />
         <item itemvalue="JUnit.PersonTest.groupedAssertionMsgs" />
         <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
