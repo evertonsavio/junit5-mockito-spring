@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5432ddd4-6f78-4485-a1d7-d25dc620f7e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit5-param-value-source/src/test/java/guru/springframework/sfgpetclinic/model/OwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-param-value-source/src/test/java/guru/springframework/sfgpetclinic/model/OwnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/junit5-param-value-source/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.OwnerTest.csvfromFileTest">
+  <component name="RunManager" selected="JUnit.OwnerTest.fromMethodTest">
     <configuration name="Controller Test" type="JUnit" factoryName="JUnit">
       <module name="junit5-vet-controller-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -113,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerTest.enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest.fromMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-param-value-source" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.model" />
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.model.OwnerTest" />
-      <option name="METHOD_NAME" value="enumTest(guru.springframework.sfgpetclinic.model.OwnerType)" />
+      <option name="METHOD_NAME" value="fromMethodTest(java.lang.String,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,19 +144,19 @@
     <list>
       <item itemvalue="JUnit.Controller Test" />
       <item itemvalue="JUnit.repeatedTests" />
-      <item itemvalue="JUnit.OwnerTest.enumTest" />
       <item itemvalue="JUnit.OwnerTest.csvInputTest" />
       <item itemvalue="JUnit.OwnerTest.csvInputTest (1)" />
       <item itemvalue="JUnit.OwnerTest.csvInputTest (2)" />
       <item itemvalue="JUnit.OwnerTest.csvfromFileTest" />
+      <item itemvalue="JUnit.OwnerTest.fromMethodTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OwnerTest.fromMethodTest" />
         <item itemvalue="JUnit.OwnerTest.csvfromFileTest" />
         <item itemvalue="JUnit.OwnerTest.csvInputTest" />
         <item itemvalue="JUnit.OwnerTest.csvInputTest (2)" />
         <item itemvalue="JUnit.OwnerTest.csvInputTest (1)" />
-        <item itemvalue="JUnit.OwnerTest.enumTest" />
       </list>
     </recent_temporary>
   </component>
