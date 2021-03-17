@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TDD_JUnit5_Java.iml" filepath="$PROJECT_DIR$/.idea/TDD_JUnit5_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit5-param-value-source/junit5-param-value-source.iml" filepath="$PROJECT_DIR$/junit5-param-value-source/junit5-param-value-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" filepath="$PROJECT_DIR$/tdd-by-example/tdd-by-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit5-default-methods/testing-java-junit5.iml" filepath="$PROJECT_DIR$/junit5-default-methods/testing-java-junit5.iml" />
     </modules>

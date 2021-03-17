@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/testing-java-junit5/pom.xml" />
         <option value="$PROJECT_DIR$/testing-java-junit5-assn-vet-controller-test/pom.xml" />
         <option value="$PROJECT_DIR$/junit5-default-methods/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5-param-value-source/pom.xml" />
       </list>
     </option>
   </component>
