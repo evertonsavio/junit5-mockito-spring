@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5432ddd4-6f78-4485-a1d7-d25dc620f7e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit5-default-methods/src/test/java/guru/springframework/sfgpetclinic/ModelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-default-methods/src/test/java/guru/springframework/sfgpetclinic/ModelTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit5-default-methods/src/test/java/guru/springframework/sfgpetclinic/model/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit5-default-methods/src/test/java/guru/springframework/sfgpetclinic/model/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +32,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/junit5-default-methods" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.repeatedTests">
-    <configuration name="All in testing-java-junit5 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-vet-controller-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.guru.springframework.sfgpetclinic in testing-java-junit5">
     <configuration name="Controller Test" type="JUnit" factoryName="JUnit">
       <module name="junit5-vet-controller-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -122,6 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="guru.springframework.sfgpetclinic in testing-java-junit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="repeatedTests" type="JUnit" factoryName="JUnit">
       <module name="testing-java-junit5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -138,19 +142,19 @@
     <list>
       <item itemvalue="JUnit.Controller Test" />
       <item itemvalue="JUnit.repeatedTests" />
-      <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
       <item itemvalue="JUnit.PersonTest.groupedAssertionMsgs" />
       <item itemvalue="JUnit.PersonTest.myRepeatedTest" />
       <item itemvalue="JUnit.PersonTest.myRepeatedTestWithDependencyInjection" />
       <item itemvalue="JUnit.PersonTest.myAssignmentRepeated" />
+      <item itemvalue="JUnit.guru.springframework.sfgpetclinic in testing-java-junit5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.guru.springframework.sfgpetclinic in testing-java-junit5" />
         <item itemvalue="JUnit.PersonTest.myAssignmentRepeated" />
         <item itemvalue="JUnit.PersonTest.myRepeatedTestWithDependencyInjection" />
         <item itemvalue="JUnit.PersonTest.myRepeatedTest" />
         <item itemvalue="JUnit.PersonTest.groupedAssertionMsgs" />
-        <item itemvalue="JUnit.All in testing-java-junit5 (1)" />
       </list>
     </recent_temporary>
   </component>
