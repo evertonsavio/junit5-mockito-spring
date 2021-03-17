@@ -7,6 +7,7 @@ import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.EnumSource;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -59,6 +60,13 @@ class OwnerTest implements ModelTests {
             "MI, 3, 3"
     })
     void csvInputTest(String stateName, int val1, int val2) {
+        System.out.println(stateName + " " + val1 + " " + val2);
+    }
+
+    @DisplayName("Csv from File Test")
+    @ParameterizedTest(name = "{displayName} - [{index}] {arguments}")
+    @CsvFileSource(resources = "/input.csv", numLinesToSkip = 1)
+    void csvfromFileTest(String stateName, int val1, int val2) {
         System.out.println(stateName + " " + val1 + " " + val2);
     }
 }
