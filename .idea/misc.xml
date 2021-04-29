@@ -3,8 +3,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/00-tdd-by-example/pom.xml" />
-        <option value="$PROJECT_DIR$/testing-java-junit5-extensions/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit5/tdd-by-example/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit5/testing-java-junit5/pom.xml" />
       </list>
     </option>
   </component>

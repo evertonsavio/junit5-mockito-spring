@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tdd-by-example" target="11" />
-      <module name="testing-java-junit5" target="${java.version}" />
+      <module name="testing-java-junit5" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
