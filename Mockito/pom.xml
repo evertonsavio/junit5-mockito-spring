@@ -4,27 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.springframework</groupId>
-    <artifactId>testing-junit5-mockito</artifactId>
+    <groupId>dev.evertonsavio.app</groupId>
+    <artifactId>mockito</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>testing-junit5-mockito</name>
+    <name>Mockito</name>
     <description>Testing Java with JUnit 5</description>
 
     <organization>
-        <name>Spring Framework Guru</name>
-        <url>https://springframework.guru/</url>
+        <name>Everton Savio</name>
+        <url>https://dev.evertonsavio</url>
     </organization>
 
     <developers>
         <developer>
-            <id>jt</id>
-            <name>John Thompson</name>
-            <email>john@springframework.guru</email>
+            <id>ES</id>
+            <name>Everton Sávio Santos Lucas</name>
+            <email>everluca@hotmail.com</email>
         </developer>
     </developers>
 
-    <inceptionYear>2018</inceptionYear>
+    <inceptionYear>2021</inceptionYear>
 
     <licenses>
         <license>
