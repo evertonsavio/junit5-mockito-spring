@@ -5,10 +5,7 @@ import dev.evertonsavio.app.sfgpetclinic.repositories.SpecialtyRepository;
 import dev.evertonsavio.app.sfgpetclinic.services.springdatajpa.SpecialitySDJpaService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentMatchers;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
+import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
@@ -33,13 +30,22 @@ class SpecialitySDJpaServiceTest {
     }
 
     @Test
-    void findByTest() {
+    void findByIdTest() {
         Speciality speciality = new Speciality();
         Mockito.when(specialtyRepository.findById(ArgumentMatchers.anyLong())).thenReturn(Optional.of(speciality));
         Speciality foundSpeciality = service.findById(1L);
         assertThat(foundSpeciality).isNotNull();
         Mockito.verify(specialtyRepository, Mockito.times(1)).findById(1L);
 
+    }
+
+    @Test
+    void findByIdBddTest() {
+        Speciality speciality = new Speciality();
+        BDDMockito.given(specialtyRepository.findById(1L)).willReturn(Optional.of(speciality));
+        Speciality foundSpeciality = service.findById(1L);
+        assertThat(foundSpeciality).isNotNull();
+        Mockito.verify(specialtyRepository, Mockito.times(1)).findById(1L);
     }
 
     @Test
