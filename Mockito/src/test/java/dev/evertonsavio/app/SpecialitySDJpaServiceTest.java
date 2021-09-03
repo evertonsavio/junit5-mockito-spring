@@ -11,6 +11,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.BDDMockito.then;
+import static org.mockito.Mockito.times;
 
 @ExtendWith(MockitoExtension.class)
 class SpecialitySDJpaServiceTest {
@@ -32,20 +35,27 @@ class SpecialitySDJpaServiceTest {
     @Test
     void findByIdTest() {
         Speciality speciality = new Speciality();
-        Mockito.when(specialtyRepository.findById(ArgumentMatchers.anyLong())).thenReturn(Optional.of(speciality));
+        Mockito.when(specialtyRepository.findById(anyLong())).thenReturn(Optional.of(speciality));
         Speciality foundSpeciality = service.findById(1L);
         assertThat(foundSpeciality).isNotNull();
-        Mockito.verify(specialtyRepository, Mockito.times(1)).findById(1L);
+        Mockito.verify(specialtyRepository, times(1)).findById(1L);
 
     }
 
     @Test
     void findByIdBddTest() {
+        //given
         Speciality speciality = new Speciality();
         BDDMockito.given(specialtyRepository.findById(1L)).willReturn(Optional.of(speciality));
+
+        //when
         Speciality foundSpeciality = service.findById(1L);
+
+        //then
         assertThat(foundSpeciality).isNotNull();
-        Mockito.verify(specialtyRepository, Mockito.times(1)).findById(1L);
+        //BDDMockito.then(specialtyRepository).should().findById(anyLong());
+        then(specialtyRepository).should(times(1)).findById(anyLong());
+        then(specialtyRepository).shouldHaveNoMoreInteractions();
     }
 
     @Test
@@ -53,7 +63,7 @@ class SpecialitySDJpaServiceTest {
         service.deleteById(1l);
         service.deleteById(1l);
 
-        Mockito.verify(specialtyRepository, Mockito.times(2)).deleteById(1L);
+        Mockito.verify(specialtyRepository, times(2)).deleteById(1L);
         Mockito.verify(specialtyRepository, Mockito.atLeastOnce()).deleteById(1L);
     }
 
