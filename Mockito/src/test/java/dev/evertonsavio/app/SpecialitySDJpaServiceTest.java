@@ -57,6 +57,7 @@ class SpecialitySDJpaServiceTest {
         assertThat(foundSpeciality).isNotNull();
         //BDDMockito.then(specialtyRepository).should().findById(anyLong());
         then(specialtyRepository).should(times(1)).findById(anyLong());
+        then(specialtyRepository).should(timeout(1/1000)).findById(anyLong());
         then(specialtyRepository).shouldHaveNoMoreInteractions();
     }
 
