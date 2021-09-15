@@ -11,9 +11,11 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.BDDMockito.then;
-import static org.mockito.Mockito.times;
+import static org.mockito.BDDMockito.*;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class SpecialitySDJpaServiceTest {
@@ -29,7 +31,7 @@ class SpecialitySDJpaServiceTest {
 
         service.delete(speciality);
 
-        Mockito.verify(specialtyRepository).delete(ArgumentMatchers.any(Speciality.class));
+        Mockito.verify(specialtyRepository).delete(any(Speciality.class));
     }
 
     @Test
@@ -55,11 +57,12 @@ class SpecialitySDJpaServiceTest {
         assertThat(foundSpeciality).isNotNull();
         //BDDMockito.then(specialtyRepository).should().findById(anyLong());
         then(specialtyRepository).should(times(1)).findById(anyLong());
+        then(specialtyRepository).should(timeout(1/1000)).findById(anyLong());
         then(specialtyRepository).shouldHaveNoMoreInteractions();
     }
 
     @Test
-    void deleteById() {
+    void deleteByIdTest() {
         service.deleteById(1l);
         service.deleteById(1l);
 
@@ -68,8 +71,30 @@ class SpecialitySDJpaServiceTest {
     }
 
     @Test
-    void delete() {
+    void deleteTest() {
         service.delete(new Speciality());
     }
 
+    @Test
+    void doThrowTest() {
+
+    doThrow(new RuntimeException("boom")).when(specialtyRepository).delete(any());
+    assertThrows(RuntimeException.class, () -> specialtyRepository.delete(new Speciality()));
+    verify(specialtyRepository).delete(any());
+
+    }
+
+    @Test
+    void findByIdThrowTest() {
+        given(specialtyRepository.findById(1L)).willThrow(new RuntimeException("boom"));
+        assertThrows(RuntimeException.class, () -> service.findById(1L));
+        then(specialtyRepository).should().findById(1L);
+    }
+
+    @Test
+    void deleteBDDTest(){
+        willThrow(new RuntimeException("Boom")).given(specialtyRepository).delete(any());
+        assertThrows(RuntimeException.class, () -> specialtyRepository.delete(new Speciality()));
+        then(specialtyRepository).should().delete(any());
+    }
 }
