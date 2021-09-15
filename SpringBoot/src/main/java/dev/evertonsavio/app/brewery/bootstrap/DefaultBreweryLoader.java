@@ -19,8 +19,6 @@ package dev.evertonsavio.app.brewery.bootstrap;
 import dev.evertonsavio.app.brewery.domain.*;
 import dev.evertonsavio.app.brewery.repositories.*;
 import dev.evertonsavio.app.brewery.web.model.BeerStyleEnum;
-import guru.springframework.brewery.domain.*;
-import guru.springframework.brewery.repositories.*;
 import dev.evertonsavio.app.brewery.repositories.BreweryRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
